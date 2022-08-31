@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* fonts */
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), url(./assets/fonts/Montserrat-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: local('Mulish'), url(./assets/fonts/Mulish-Regular.ttf) format('truetype');
+}
+
+@layer base {
+    html {
+      font-family: 'Mulish', sans-serif;
+    }
+}
+
+h2{
+    @apply text-3xl text-primary font-semibold font-Montserrat;
+}
+
+.ak-input{
+    @apply w-full appearance-none rounded-md border border-primary text-lg px-4 py-2 mt-6 focus:outline-none self-center;
+}
+
+.ak-input2{
+    @apply w-full rounded-md border border-primary text-lg px-4 py-2 mt-6 focus:outline-none self-center;
+}
+
+
+.ak-container{
+    width: 93%;
+    margin: 0 auto;
+}
+
+.ak-container2{
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+.ak-user-form input::placeholder{
+    color: #263238;
+}
+.ak-user-form input{
+    margin-top: 0;
+}
+
+.error{
+    @apply text-base text-red-400 float-left inline;
+}
+
+.active{
+    @apply font-bold text-primary
+}

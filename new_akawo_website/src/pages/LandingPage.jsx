@@ -1,0 +1,41 @@
+import React from 'react'
+import { Hero, Features, GrowBigger, HowItWorks, WhoWeAre, Agent, Savings, Footer, Navbar } from '../components/index'
+
+const LandingPage = () => {
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <Features />
+      <GrowBigger />
+      <HowItWorks />
+      <WhoWeAre />
+      <Agent />
+      <Savings />
+      <Footer />
+
+      <a href="https://api.WhatsApp.com/send?phone=2348164659672" className='border border-r-red-600'>
+        <svg width="130" height="130" className='fixed z-20 bottom-0 right-0 cursor-pointer' viewBox="0 0 168 168" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g filter="url(#filter0_d_1904_1037)">
+            <circle cx="84" cy="75" r="40" fill="white" />
+          </g>
+          <path d="M97.6 66.3998C92.8 58.9998 83 56.7998 75.4 61.3998C68 65.9998 65.6 75.9998 70.4 83.3998L70.8 83.9998L69.2 89.9998L75.2 88.3998L75.8 88.7998C78.4 90.1998 81.2 90.9998 84 90.9998C87 90.9998 90 90.1998 92.6 88.5998C100 83.7998 102.2 73.9998 97.6 66.3998ZM93.4 81.7998C92.6 82.9998 91.6 83.7998 90.2 83.9998C89.4 83.9998 88.4 84.3998 84.4 82.7998C81 81.1998 78.2 78.5998 76.2 75.5998C75 74.1998 74.4 72.3998 74.2 70.5998C74.2 68.9998 74.8 67.5998 75.8 66.5998C76.2 66.1998 76.6 65.9998 77 65.9998H78C78.4 65.9998 78.8 65.9998 79 66.7998C79.4 67.7998 80.4 70.1998 80.4 70.3998C80.6 70.5998 80.6 70.9998 80.4 71.1998C80.6 71.5998 80.4 71.9998 80.2 72.1998C80 72.3998 79.8 72.7998 79.6 72.9998C79.2 73.1998 79 73.5998 79.2 73.9998C80 75.1998 81 76.3998 82 77.3998C83.2 78.3998 84.4 79.1998 85.8 79.7998C86.2 79.9998 86.6 79.9998 86.8 79.5998C87 79.1998 88 78.1998 88.4 77.7998C88.8 77.3998 89 77.3998 89.4 77.5998L92.6 79.1998C93 79.3998 93.4 79.5998 93.6 79.7998C93.8 80.3998 93.8 81.1998 93.4 81.7998Z" fill="#03D17A" />
+          <defs>
+            <filter id="filter0_d_1904_1037" x="0.310001" y="0.410002" width="167.38" height="167.38" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
+              <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+              <feOffset dy="9.1" />
+              <feGaussianBlur stdDeviation="21.845" />
+              <feComposite in2="hardAlpha" operator="out" />
+              <feColorMatrix type="matrix" values="0 0 0 0 0.170833 0 0 0 0 0.170833 0 0 0 0 0.170833 0 0 0 0.05 0" />
+              <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1904_1037" />
+              <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1904_1037" result="shape" />
+            </filter>
+          </defs>
+        </svg>
+      </a>
+    </>
+  )
+}
+
+export default LandingPage
